@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import logo from "../assets/img/logo5.svg";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
@@ -30,6 +31,9 @@ function NavBar() {
       expand="lg"
     >
       <Container>
+        <Navbar.Brand href="/">
+          <img src={logo} alt="Logo" className="logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
