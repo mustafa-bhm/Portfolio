@@ -48,5 +48,16 @@ body {
 
 .logo {
   width: 7rem;
-  /* height: 5rem; */
+}
+
+/* Banner styles  */
+.banner {
+  background-color: black;
+  color: #fff;
+}
+
+.banner-img {
+  width: 35rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
