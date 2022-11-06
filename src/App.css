@@ -24,15 +24,26 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
 body {
   font-weight: 400;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
   background-color: black;
   color: white;
   font-family: "Centra", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
 }
 
 /* NAV BAR  */
@@ -60,4 +71,36 @@ body {
   width: 35rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+/* Skills  */
+.skill {
+  padding-bottom: 3rem;
+  position: relative;
+  background-color: black;
+  color: #fff;
+}
+.skill-box {
+  text-align: center;
+}
+.skill h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.skill p {
+  font-size: 1.12rem;
+  line-height: 1.5em;
+  margin: 14px 0 4.68rem 0;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill-icons {
+  width: 7rem;
+  height: 7rem;
+  margin: 0 auto 1rem auto;
 }
