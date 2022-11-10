@@ -161,11 +161,53 @@ h6 {
   opacity: 0.8;
 }
 .project__links a {
-  background-color: rgb(179, 20, 20);
+  background-color: rgb(198, 53, 234);
   color: white;
   padding: 1em 1.5em;
   text-decoration: none;
   cursor: pointer;
   margin-right: 0.5rem;
   border-radius: 1rem;
+  transition: 0.25s ease-in-out;
+}
+.project__links a:hover {
+  background-color: rgb(246, 238, 238);
+  color: black;
+}
+
+/* Contact  */
+.contact {
+  background-color: black;
+  padding-bottom: 3rem;
+}
+.form h3 {
+  padding-bottom: 2rem;
+}
+
+.form {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.input-flex {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+input,
+textarea {
+  border: 0;
+  border-radius: 6px;
+  padding: 1rem;
+  flex-grow: 2;
+}
+
+.full-width {
+  width: 100%;
 }
