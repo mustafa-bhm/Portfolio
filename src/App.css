@@ -211,3 +211,10 @@ textarea {
 .full-width {
   width: 100%;
 }
+
+.confirmation {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
