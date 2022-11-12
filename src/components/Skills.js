@@ -27,7 +27,7 @@ function Skills() {
     },
   };
   return (
-    <section className="skill">
+    <section className="skill" id="skills">
       <Container>
         <Row>
           <Col>

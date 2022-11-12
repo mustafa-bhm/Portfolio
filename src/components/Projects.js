@@ -50,7 +50,7 @@ function Projects() {
   ];
 
   return (
-    <section className="proj">
+    <section className="proj" id="projects">
       <Container>
         <h2> Projects</h2>
         <div className="project-cards">

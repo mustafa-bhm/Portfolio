@@ -48,6 +48,10 @@ h6 {
 
 /* NAV BAR  */
 
+#navBar {
+  background-color: rgba(0, 0, 0, 0.988);
+}
+
 .nav-btn {
   font-weight: 700;
   color: #fff;
@@ -65,6 +69,7 @@ h6 {
 .banner {
   background-color: black;
   color: #fff;
+  height: 100vh;
 }
 
 .banner-img {
@@ -123,6 +128,7 @@ h6 {
   align-items: center;
   margin-top: 3rem;
   padding-bottom: 3rem;
+
   /* width: 80%; */
   /* margin: auto; */
 }
@@ -217,4 +223,36 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.btn-submit {
+  padding: 15px 20px;
+  border-radius: 6px;
+  background-color: bisque;
+  transition: 0.3s ease-in-out;
+}
+.btn-submit:hover {
+  background-color: rgba(255, 228, 196, 0.856);
+}
+
+/* Footer  */
+
+.footer {
+  background-color: rgba(2, 2, 2, 0.956);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+.icons a:first-child {
+  margin-right: 1rem;
+}
+
+.icon {
+  color: #dfdcdc;
+  transition: 0.3s ease-in-out;
+}
+.icon:hover {
+  color: rgb(163, 161, 161);
 }

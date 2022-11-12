@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerimg from "../assets/img/banner.svg";
 
 function Banner() {
@@ -20,9 +18,8 @@ function Banner() {
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo
             </p>
-            <button onClick={() => console.log("btn clicked !")}>
-              contact <ArrowRightCircle size={25} />
-            </button>
+
+            <a href="https://resume.creddle.io/resume/qhc7b38b36">Resume</a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img className="banner-img" src={headerimg} alt="header" />

@@ -16,7 +16,7 @@ export const Contact = () => {
   }
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="form">
         <h3> Get in touch</h3>
         <div>
@@ -36,8 +36,12 @@ export const Contact = () => {
               placeholder="your message"
             ></textarea>
 
-            <button type="submit" disabled={state.submitting}>
-              Submit
+            <button
+              type="submit"
+              className="btn-submit"
+              disabled={state.submitting}
+            >
+              Send Message
             </button>
             <ValidationError errors={state.errors} />
           </form>
