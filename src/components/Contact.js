@@ -1,6 +1,15 @@
 import { useForm, ValidationError } from "@formspree/react";
+import "animate.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export const Contact = () => {
+  // to initiat Aos
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   // to email the form
   const [state, handleSubmit] = useForm("mvoyddll");
   if (state.succeeded) {
@@ -16,8 +25,8 @@ export const Contact = () => {
   }
 
   return (
-    <div className="contact" id="contact">
-      <div className="form">
+    <div className="contact " id="contact">
+      <div data-aos="fade-up" className="form">
         <h3> Get in touch</h3>
         <div>
           <form className="input-flex" onSubmit={handleSubmit}>

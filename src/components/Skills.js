@@ -6,8 +6,16 @@ import htmlIcon from "../assets/img/html.svg";
 import JsIcon from "../assets/img/javascript.svg";
 import cssIcon from "../assets/img/css3.svg";
 import bootstrapIcon from "../assets/img/bootstrap.svg";
+import "animate.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Skills() {
+  // to initait Aos
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -32,38 +40,40 @@ function Skills() {
         <Row>
           <Col>
             <div className="skill-box">
-              <h2>Skills</h2>
+              <h2 data-aos="fade-right">Skills</h2>
               <p>
                 Lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua.
               </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="skill-slider"
-              >
-                <div className="item">
-                  <img src={JsIcon} alt="skill" className="skill-icons" />
-                  <h5>skill 1</h5>
-                </div>
-                <div className="item">
-                  <img
-                    src={bootstrapIcon}
-                    alt="skill"
-                    className="skill-icons"
-                  />
-                  <h5>skill 2</h5>
-                </div>
-                <div className="item">
-                  <img src={cssIcon} alt="skill" className="skill-icons" />
-                  <h5>skill 2</h5>
-                </div>
-                <div className="item">
-                  <img src={htmlIcon} alt="skill" className="skill-icons" />
-                  <h5>skill 3</h5>
-                </div>
-              </Carousel>
+              <div data-aos="fade-left">
+                <Carousel
+                  responsive={responsive}
+                  infinite={true}
+                  className="skill-slider"
+                >
+                  <div className="item">
+                    <img src={JsIcon} alt="skill" className="skill-icons" />
+                    <h5>skill 1</h5>
+                  </div>
+                  <div className="item">
+                    <img
+                      src={bootstrapIcon}
+                      alt="skill"
+                      className="skill-icons"
+                    />
+                    <h5>skill 2</h5>
+                  </div>
+                  <div className="item">
+                    <img src={cssIcon} alt="skill" className="skill-icons" />
+                    <h5>skill 2</h5>
+                  </div>
+                  <div className="item">
+                    <img src={htmlIcon} alt="skill" className="skill-icons" />
+                    <h5>skill 3</h5>
+                  </div>
+                </Carousel>
+              </div>
             </div>
           </Col>
         </Row>

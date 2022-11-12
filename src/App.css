@@ -64,9 +64,11 @@ h6 {
 .logo {
   width: 7rem;
 }
+/* animate__fadeInDown */
 
 /* Banner styles  */
 .banner {
+  padding-top: 6rem;
   background-color: black;
   color: #fff;
   height: 100vh;
