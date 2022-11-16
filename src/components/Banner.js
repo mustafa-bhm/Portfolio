@@ -10,6 +10,7 @@ function Banner() {
       <TrackVisibility>
         <Container
           className={isVisible ? "animate__animated animate__fadeInDown" : ""}
+          id="banner-container"
         >
           <Row className="align-items-center  ">
             <Col xs={12} md={6} xl={7}>
@@ -25,7 +26,12 @@ function Banner() {
                 ullamco laboris nisi ut aliquip ex ea commodo
               </p>
 
-              <a href="https://resume.creddle.io/resume/qhc7b38b36">Resume</a>
+              <a
+                href="https://resume.creddle.io/resume/qhc7b38b36"
+                className="resume"
+              >
+                Resume
+              </a>
             </Col>
             <Col xs={12} md={6} xl={5}>
               <img className="banner-img" src={headerimg} alt="header" />

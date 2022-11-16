@@ -17,7 +17,7 @@ export const Contact = () => {
       <>
         <div className="contact">
           <div className="form confirmation">
-            <p>Thank you for your message </p>
+            <p>Thank you for your message ! </p>
           </div>
         </div>
       </>
@@ -25,9 +25,9 @@ export const Contact = () => {
   }
 
   return (
-    <div className="contact " id="contact">
+    <div className="contact" id="contact">
       <div data-aos="fade-up" className="form">
-        <h3> Get in touch</h3>
+        <h2 className="section-title"> Get in touch</h2>
         <div>
           <form className="input-flex" onSubmit={handleSubmit}>
             <input type="text" name="name" placeholder="your name" />

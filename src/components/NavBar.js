@@ -4,18 +4,21 @@ import { useState, useEffect } from "react";
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+
+  // to initait Aos
+
+  // const [scrolled, setScrolled] = useState(false);
+  // useEffect(() => {
+  //   const onScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setScrolled(true);
+  //     } else {
+  //       setScrolled(false);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", onScroll);
+  //   return () => window.removeEventListener("scroll", onScroll);
+  // }, []);
   const onUpdateActivelink = (value) => {
     setActiveLink(value);
   };
@@ -25,12 +28,12 @@ function NavBar() {
       <Navbar
         // bg="dark"
         variant="dark"
-        className={scrolled ? "scrolled" : ""}
+        // className={scrolled ? "scrolled" : ""}
         expand="lg"
         sticky="top"
         id="navBar"
       >
-        <Container>
+        <Container className="nav-container">
           <Navbar.Brand href="/">
             {/* <img src={} alt="Logo" className="logo" /> */}
           </Navbar.Brand>
@@ -46,6 +49,16 @@ function NavBar() {
               >
                 Home
               </Nav.Link>
+
+              <Nav.Link
+                href="#skills"
+                className={
+                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActivelink("skills")}
+              >
+                Skills
+              </Nav.Link>
               <Nav.Link
                 href="#projects"
                 className={
@@ -57,26 +70,19 @@ function NavBar() {
               >
                 Projects
               </Nav.Link>
+
               <Nav.Link
-                href="#skills"
+                href="#contact"
                 className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                  activeLink === "contact"
+                    ? "active navbar-link"
+                    : "navbar-link"
                 }
-                onClick={() => onUpdateActivelink("skills")}
+                onClick={() => onUpdateActivelink("contact")}
               >
-                Skills
+                Contact
               </Nav.Link>
             </Nav>
-            <Nav.Link href="#contact">
-              <span className="navbar-text">
-                <button
-                  className="nav-btn"
-                  onClick={() => console.log("connect")}
-                >
-                  Contact
-                </button>
-              </span>
-            </Nav.Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>
