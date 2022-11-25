@@ -15,14 +15,17 @@ function Banner() {
           <Row className="align-items-center  ">
             <Col xs={12} md={6} xl={7}>
               <span className="tagline"> Hi, my name is </span>
-              <h1>
+              <h2 className="name">
                 Mustafa
-                <span className="wrap"> and I'm a Web Developer</span>
-              </h1>
+                <span> and I'm a Full-Stack Web Developer</span>
+              </h2>
               <p>
-                I'm a Bilingual [EN-FR] Web Developer with a focus on the
-                JavaScript ecosystem for product development. I love building
-                new things and learning new technologies.
+                Bilingual [EN-FR] Full Stack web developer transitioning from
+                Accounting with a focus on the JavaScript ecosystem for product
+                development. My passion for web development lies in creating
+                something and being able to share it with others, and clearly
+                seeing the outcome of my contribution and transforming ideas
+                from concepts to applications that can be used by other people.
               </p>
 
               <a
