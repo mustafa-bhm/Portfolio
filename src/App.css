@@ -50,6 +50,9 @@ h6 {
   color: #fff;
   padding-top: 6rem;
 }
+.tagline {
+  font-size: 1.2rem;
+}
 
 .resume {
   cursor: pointer;
