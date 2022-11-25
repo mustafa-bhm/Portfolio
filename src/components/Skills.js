@@ -4,7 +4,6 @@ import htmlIcon from "../assets/icons/html.svg";
 import JsIcon from "../assets/icons/javascript.svg";
 import cssIcon from "../assets/icons/css3.svg";
 import bootstrapIcon from "../assets/icons/bootstrap.svg";
-
 import "animate.css";
 import Aos from "aos";
 import "aos/dist/aos.css";

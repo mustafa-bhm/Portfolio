@@ -14,21 +14,22 @@ function Banner() {
         >
           <Row className="align-items-center  ">
             <Col xs={12} md={6} xl={7}>
-              <span className="tagline"> Welcome to my portfolio !</span>
+              <span className="tagline"> Hi, my name is </span>
               <h1>
-                {`Hi I'm mustafa`} <span className="wrap"> Web developer</span>
+                Mustafa
+                <span className="wrap"> and I'm a Web Developer</span>
               </h1>
               <p>
-                {" "}
-                About me , Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo
+                I'm a Bilingual [EN-FR] Web Developer with a focus on the
+                JavaScript ecosystem for product development. I love building
+                new things and learning new technologies.
               </p>
 
               <a
                 href="https://resume.creddle.io/resume/qhc7b38b36"
                 className="resume"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Resume
               </a>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import projectImage from "../assets/img/project-img1.jpg";
 
@@ -16,25 +16,30 @@ function Projects() {
 
   const projects = [
     {
-      title: "App name ",
-      description: "Design & Development",
-      imgUrl: projectImage,
-      liveDemo: "https://www.google.com/",
-      githubRepo: "https://github.com/",
+      title: "Tiny App ",
+      description:
+        "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
+      imgUrl: "https://i.imgur.com/9gRbGjK.png",
+      liveDemo: "https://www.youtube.com/watch?v=4VZ2TVKERt0",
+      githubRepo: "https://github.com/mustafa-bhm/tinyapp",
     },
     {
-      title: "App name ",
-      description: "Design & Development",
-      imgUrl: projectImage,
-      liveDemo: "https://www.google.com/",
-      githubRepo: "https://github.com/",
+      title: "Cocktail ",
+      description:
+        "This is a single page app that was built as a final Project for Lighthouse Lab bootcamp",
+      imgUrl:
+        "https://github.com/mustafa-bhm/cocktail-final-project/raw/master/screenshots/Homepage.png",
+      liveDemo: "https://www.youtube.com/watch?v=8M-r5ZMTc-g",
+      githubRepo: "https://github.com/mustafa-bhm/cocktail-final-project",
     },
     {
-      title: "App name ",
-      description: "Design & Development",
-      imgUrl: projectImage,
-      liveDemo: "https://www.google.com/",
-      githubRepo: "https://github.com/",
+      title: "Scheduler",
+      description:
+        "This Interview Scheduler is a SPA ( single-page-application) , that can help students create / update and delete their appointments",
+      imgUrl:
+        "https://github.com/mustafa-bhm/scheduler/raw/master/docs/Screen%20Shot%202022-09-14%20at%209.54.02%20AM.png?raw=true",
+      liveDemo: "https://www.youtube.com/watch?v=kdaE9yyipCI",
+      githubRepo: "https://github.com/mustafa-bhm/scheduler",
     },
     {
       title: "App name ",
