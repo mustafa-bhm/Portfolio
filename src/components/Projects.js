@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projectImage from "../assets/img/project-img1.png";
+import jungleImg from "../assets/img/jungle.png";
 
 import "animate.css";
 import Aos from "aos";
@@ -45,7 +45,7 @@ function Projects() {
       title: "Jungle ",
       description:
         "A mini e-commerce application built with Rails 6.1 for purposes of learning Rails",
-      imgUrl: projectImage,
+      imgUrl: jungleImg,
       liveDemo: "",
       githubRepo: "https://github.com/mustafa-bhm/jungle-rails",
     },
