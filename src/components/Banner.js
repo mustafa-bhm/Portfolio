@@ -20,12 +20,11 @@ function Banner() {
                 <span> and I'm a Full-Stack Web Developer</span>
               </h2>
               <p>
-                Bilingual [EN-FR] Full Stack web developer transitioning from
-                Accounting with a focus on the JavaScript ecosystem for product
-                development. My passion for web development lies in creating
-                something and being able to share it with others, and clearly
-                seeing the outcome of my contribution and transforming ideas
-                from concepts to applications that can be used by other people.
+                Bilingual [EN-FR] Full Stack web developer with a focus on the
+                JavaScript ecosystem for product development. My passion for web
+                development lies in building something and being able to share
+                it, and transforming ideas from concepts to applications that
+                can be used by other people.
               </p>
 
               <a

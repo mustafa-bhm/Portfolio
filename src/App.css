@@ -140,12 +140,16 @@ h6 {
 .project {
   position: relative;
 }
+
 .project__img {
   width: 20rem;
-  height: 17rem;
+  height: 15rem;
   border-radius: 15px;
 }
 
+.icon-projects {
+  color: black;
+}
 .project__overlay {
   position: absolute;
   top: 0;

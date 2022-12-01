@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 function ProjectCard({ title, description, imgUrl, liveDemo, githubRepo }) {
   return (
@@ -8,11 +9,12 @@ function ProjectCard({ title, description, imgUrl, liveDemo, githubRepo }) {
         <h4 className="project__title">{title}</h4>
         <p className="project__description"> {description}</p>
         <div className="project__links">
-          <a href={liveDemo} target="_blank" rel="noopener noreferrer">
+          {/* <a href={liveDemo} target="_blank" rel="noopener noreferrer">
             Live Demo
-          </a>
+          </a> */}
           <a href={githubRepo} target="_blank" rel="noopener noreferrer">
-            Github Repo
+            {/* Github Repo */}
+            <FaGithub size={30} className="icon-projects " />
           </a>
         </div>
       </div>

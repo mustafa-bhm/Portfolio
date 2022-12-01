@@ -37,30 +37,35 @@ function Projects() {
       description:
         "This Interview Scheduler is a SPA ( single-page-application) , that can help students create / update and delete their appointments",
       imgUrl:
-        "https://github.com/mustafa-bhm/scheduler/raw/master/docs/Screen%20Shot%202022-09-14%20at%209.54.02%20AM.png?raw=true",
+        "https://github.com/mustafa-bhm/scheduler/blob/master/docs/Screen%20Shot%20.png?raw=true",
       liveDemo: "https://www.youtube.com/watch?v=kdaE9yyipCI",
       githubRepo: "https://github.com/mustafa-bhm/scheduler",
     },
     {
-      title: "App name ",
-      description: "Design & Development",
-      imgUrl: projectImage,
-      liveDemo: "https://www.google.com/",
-      githubRepo: "https://github.com/",
+      title: "Jungle ",
+      description:
+        "A mini e-commerce application built with Rails 6.1 for purposes of learning Rails",
+      imgUrl:
+        "https://github.com/mustafa-bhm/jungle-rails/blob/master/docs/Screen%20Shot%202022-09-27%20at%201.49.30%20PM.png?raw=true",
+      liveDemo: "",
+      githubRepo: "https://github.com/mustafa-bhm/jungle-rails",
     },
     {
-      title: "App name ",
-      description: "Design & Development",
-      imgUrl: projectImage,
-      liveDemo: "https://www.google.com/",
-      githubRepo: "https://github.com/",
+      title: "Tweeter",
+      description:
+        "This is a responsive , simple and single-page Twitter clone",
+      imgUrl:
+        "https://github.com/mustafa-bhm/tweeter./blob/main/public/images/Desktop-2.png?raw=true",
+      liveDemo: "",
+      githubRepo: "https://github.com/mustafa-bhm/tweeter.",
     },
     {
-      title: "App name ",
-      description: "Design & Development",
-      imgUrl: projectImage,
+      title: "To-do-App ",
+      description: "A To-Do-App built with HTML , CSS and Javascript",
+      imgUrl:
+        "https://github.com/mustafa-bhm/To-do-list/blob/master/assets/Screen%20Shot%202022-11-30%20at%208.18.18%20PM.png?raw=true",
       liveDemo: "https://www.google.com/",
-      githubRepo: "https://github.com/",
+      githubRepo: "https://github.com/mustafa-bhm/To-do-list",
     },
   ];
 
