@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projectImage from "../assets/img/project-img1.jpg";
+import projectImage from "../assets/img/project-img1.png";
 
 import "animate.css";
 import Aos from "aos";
@@ -37,7 +37,7 @@ function Projects() {
       description:
         "This Interview Scheduler is a SPA ( single-page-application) , that can help students create / update and delete their appointments",
       imgUrl:
-        "https://github.com/mustafa-bhm/scheduler/blob/master/docs/Screen%20Shot%20.png",
+        "https://raw.githubusercontent.com/mustafa-bhm/scheduler/master/docs/Screen%20Shot%20.png",
       liveDemo: "https://www.youtube.com/watch?v=kdaE9yyipCI",
       githubRepo: "https://github.com/mustafa-bhm/scheduler",
     },
@@ -45,8 +45,7 @@ function Projects() {
       title: "Jungle ",
       description:
         "A mini e-commerce application built with Rails 6.1 for purposes of learning Rails",
-      imgUrl:
-        "https://github.com/mustafa-bhm/jungle-rails/blob/master/docs/Screen%20Shot%202022-09-27%20at%201.49.30%20PM.png",
+      imgUrl: projectImage,
       liveDemo: "",
       githubRepo: "https://github.com/mustafa-bhm/jungle-rails",
     },
