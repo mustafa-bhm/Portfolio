@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import jungleImg from "../assets/img/jungle.png";
+import waxwing from "../assets/img/waxwing.png";
 
 import "animate.css";
 import Aos from "aos";
@@ -27,8 +28,7 @@ function Projects() {
       title: "Cocktail ",
       description:
         "This is a single page app that was built as a final Project for Lighthouse Lab bootcamp",
-      imgUrl:
-        "https://github.com/mustafa-bhm/cocktail-final-project/raw/master/screenshots/Homepage.png",
+      imgUrl: waxwing,
       liveDemo: "https://www.youtube.com/watch?v=8M-r5ZMTc-g",
       githubRepo: "https://github.com/mustafa-bhm/cocktail-final-project",
     },
