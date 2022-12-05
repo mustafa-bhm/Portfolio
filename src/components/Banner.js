@@ -28,7 +28,7 @@ function Banner() {
               </p>
 
               <a
-                href="https://github.com/mustafa-bhm/resume/raw/master/resume/Resume-Mustafa.pdf"
+                href="https://github.com/mustafa-bhm/resume/blob/master/resume/Resume-Mustafa.pdf"
                 className="resume"
                 target="_blank"
                 rel="noopener noreferrer"
