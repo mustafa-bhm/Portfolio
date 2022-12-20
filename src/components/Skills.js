@@ -16,6 +16,11 @@ import nodeJs from "../assets/icons/nodejs-2.svg";
 import react from "../assets/icons/react-2.svg";
 import psql from "../assets/icons/postgresql.svg";
 
+import github from "../assets/icons/github.svg";
+import mongodb from "../assets/icons/mongodb.svg";
+import firebase from "../assets/icons/firebase.svg";
+import webpack from "../assets/icons/webpack.svg";
+
 function Skills() {
   // to initait Aos
   useEffect(() => {
@@ -75,6 +80,23 @@ function Skills() {
           <div className="skill-item">
             <img src={psql} alt="skill" className="skill-icon" />
             <h5>Postgresql</h5>
+          </div>
+
+          <div className="skill-item">
+            <img src={github} alt="skill" className="skill-icon" />
+            <h5>Github</h5>
+          </div>
+          <div className="skill-item">
+            <img src={mongodb} alt="skill" className="skill-icon" />
+            <h5>MongoDB</h5>
+          </div>
+          <div className="skill-item">
+            <img src={firebase} alt="skill" className="skill-icon" />
+            <h5>Firebase</h5>
+          </div>
+          <div className="skill-item">
+            <img src={webpack} alt="skill" className="skill-icon" />
+            <h5>Webpack</h5>
           </div>
         </div>
       </div>

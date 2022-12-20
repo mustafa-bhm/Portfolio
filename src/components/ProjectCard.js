@@ -9,9 +9,9 @@ function ProjectCard({ title, description, imgUrl, liveDemo, githubRepo }) {
         <h4 className="project__title">{title}</h4>
         <p className="project__description"> {description}</p>
         <div className="project__links">
-          {/* <a href={liveDemo} target="_blank" rel="noopener noreferrer">
-            Live Demo
-          </a> */}
+          <a href={liveDemo} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
           <a href={githubRepo} target="_blank" rel="noopener noreferrer">
             {/* Github Repo */}
             <FaGithub size={30} className="icon-projects " />

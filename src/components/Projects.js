@@ -17,14 +17,6 @@ function Projects() {
 
   const projects = [
     {
-      title: "Tiny App ",
-      description:
-        "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
-      imgUrl: "https://i.imgur.com/9gRbGjK.png",
-      liveDemo: "https://www.youtube.com/watch?v=4VZ2TVKERt0",
-      githubRepo: "https://github.com/mustafa-bhm/tinyapp",
-    },
-    {
       title: "Cocktail ",
       description:
         "This is a single page app that was built as a final Project for Lighthouse Lab bootcamp",
@@ -33,22 +25,23 @@ function Projects() {
       githubRepo: "https://github.com/mustafa-bhm/cocktail-final-project",
     },
     {
-      title: "Scheduler",
-      description:
-        "This Interview Scheduler is a SPA ( single-page-application) , that can help students create / update and delete their appointments",
+      title: "Express Blog ",
+      description: "Blog website built with Node.js, Express and MangoDb",
       imgUrl:
-        "https://raw.githubusercontent.com/mustafa-bhm/scheduler/master/docs/Screen%20Shot%20.png",
-      liveDemo: "https://www.youtube.com/watch?v=kdaE9yyipCI",
-      githubRepo: "https://github.com/mustafa-bhm/scheduler",
+        "https://raw.githubusercontent.com/mustafa-bhm/blog-mongoDB/master/public/ScreenShot2.png",
+      liveDemo: "https://blog-mongodb.onrender.com/blogs",
+      githubRepo: "https://github.com/mustafa-bhm/blog-mongoDB",
     },
     {
-      title: "Jungle ",
+      title: "My Library ",
       description:
-        "A mini e-commerce application built with Rails 6.1 for purposes of learning Rails",
-      imgUrl: jungleImg,
-      liveDemo: "",
-      githubRepo: "https://github.com/mustafa-bhm/jungle-rails",
+        "Web app that allows users to add, update and delete their favorite books using Firebase.",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/My-Library-Firebase/master/src/assets/home-page.png",
+      liveDemo: "https://my-library-firebase.netlify.app/",
+      githubRepo: "https://github.com/mustafa-bhm/My-Library-Firebase",
     },
+
     {
       title: "Tweeter",
       description:
@@ -65,6 +58,65 @@ function Projects() {
         "https://raw.githubusercontent.com/mustafa-bhm/To-do-list/master/assets/Screen%20Shot%202022-11-30%20at%208.18.18%20PM.png",
       liveDemo: "https://www.google.com/",
       githubRepo: "https://github.com/mustafa-bhm/To-do-list",
+    },
+
+    {
+      title: "Tiny App ",
+      description:
+        "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly).",
+      imgUrl: "https://i.imgur.com/9gRbGjK.png",
+      liveDemo: "https://www.youtube.com/watch?v=4VZ2TVKERt0",
+      githubRepo: "https://github.com/mustafa-bhm/tinyapp",
+    },
+    {
+      title: "Scheduler",
+      description:
+        "This Interview Scheduler is a SPA ( single-page-application) , that can help students create / update and delete their appointments",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/scheduler/master/docs/Screen%20Shot%20.png",
+      liveDemo: "https://www.youtube.com/watch?v=kdaE9yyipCI",
+      githubRepo: "https://github.com/mustafa-bhm/scheduler",
+    },
+    {
+      title: "Memory Card ",
+      description: "A Memory game Built wit React and Tailwind CSS",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/Memory-Card-React/master/public/homePage.png",
+      liveDemo: " https://mustsfa-memory-game.netlify.app/",
+      githubRepo: "https://github.com/mustafa-bhm/Memory-Card-React",
+    },
+    {
+      title: "Weather App ",
+      description: "A weather app built using the OpenWeatherMap API",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/weather-App/master/assets/homepage.png",
+      liveDemo: "https://mustafa-bhm.github.io/weather-App/",
+      githubRepo: "https://github.com/mustafa-bhm/weather-App",
+    },
+    {
+      title: "Tic Tac Toe",
+      description: "A weather app built using the OpenWeatherMap API",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/Tic-Tac-Toe/master/assets/homepage.png",
+      liveDemo: "https://mustafa-bhm.github.io/Tic-Tac-Toe/",
+      githubRepo: "https://github.com/mustafa-bhm/Tic-Tac-Toe",
+    },
+    {
+      title: "Rock Paper Scissors !",
+      description: "A Rock Paper Scissors built with vanilla JavaScript",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/R-P-S/master/assets/homepage.png",
+      liveDemo: "https://rock-paper-scissors-mustafa.netlify.app/",
+      githubRepo: "https://github.com/mustafa-bhm/R-P-S",
+    },
+    {
+      title: "Sketch",
+      description:
+        "An Etch-a-Sketch game created using HTML, CSS and Javascript",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/sketch/master/assets/Screen%20Shot%202022-11-07%20at%208.04.19%20PM.png",
+      liveDemo: "https://mustafa-bhm.github.io/sketch/",
+      githubRepo: "https://github.com/mustafa-bhm/sketch",
     },
   ];
 
