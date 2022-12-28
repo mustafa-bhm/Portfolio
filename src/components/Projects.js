@@ -25,6 +25,15 @@ function Projects() {
       githubRepo: "https://github.com/mustafa-bhm/cocktail-final-project",
     },
     {
+      title: "Members Only ",
+      description:
+        "An exclusive clubhouse where members can write anonymous posts",
+      imgUrl:
+        "https://raw.githubusercontent.com/mustafa-bhm/V.I.P.-CLUB/master/public/assets/homepage-nonLoggedin-user.png",
+      liveDemo: "https://members-only-af6p.onrender.com/",
+      githubRepo: "https://github.com/mustafa-bhm/V.I.P.-CLUB",
+    },
+    {
       title: "Express Blog ",
       description: "Blog website built with Node.js, Express and MangoDb",
       imgUrl:
